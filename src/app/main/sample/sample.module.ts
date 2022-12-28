@@ -8,6 +8,7 @@ import { ContentHeaderModule } from 'app/layout/components/content-header/conten
 
 import { SampleComponent } from './sample.component';
 import { HomeComponent } from './home.component';
+import { CajeroComponent } from '../cajero/cajero.component';
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: 'home',
     component: HomeComponent,
     data: { animation: 'home' }
+  },
+  {
+    path: 'cajero',
+    component: CajeroComponent,
+    data: { animation: 'cajero' }
   }
 ];
 

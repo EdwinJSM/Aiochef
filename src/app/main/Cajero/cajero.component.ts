@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cajero.component.scss']
 })
 export class CajeroComponent implements OnInit {
+  //todo Modal Ingresar nuevo movimiento Type:Form
+  //Opciones de caja Type:Button panel
+  //Lista de pedidos Type:Table with filters
+
 
   constructor() { }
 

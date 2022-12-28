@@ -16,5 +16,12 @@ export const menu: CoreMenu[] = [
     type: 'item',
     icon: 'file',
     url: 'sample'
+  },
+  {
+    id: 'cajero',
+    title: 'Cajero',
+    type: 'item',
+    icon: 'dollar-sign',
+    url: 'cajero'
   }
 ]
